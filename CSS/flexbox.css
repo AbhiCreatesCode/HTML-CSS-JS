@@ -1,0 +1,41 @@
+body{
+    min-height: 800px;
+    display: flex ;
+    border: 8px solid black;
+    /* justify-content: space-evenly; */
+    /* justify contenet we do flex-end flex-start and center*/ 
+    /* align-items: center; */
+    /* gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+
+    /* autoamtics sizing */
+    gap: 10px;
+}
+
+/* task 2 center the numbers inside of the flex box*/ 
+.box{
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+#box-1{
+    flex-shrink: 0;
+}
+
+.box{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+@media(max-width: 575px){
+    body{
+        flex-wrap: wrap;
+    }
+}
