@@ -1,0 +1,19 @@
+
+.grid-container{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; this way it is not auto adjusting its like a fixed instead we can use fr rfaction */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 1em;
+}
+
+
+
+.item{
+    padding: 2em;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 2rem;
+}
